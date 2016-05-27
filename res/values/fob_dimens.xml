@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <dimen name="fob_default_gap">4.00dp</dimen>
+  <dimen name="fob_default_gapx2">8.00dp</dimen>
+  <dimen name="fob_default_gapx3">12.00dp</dimen>
+  <dimen name="fob_default_gapx4">16.00dp</dimen>
+  <dimen name="fob_text_size_small">12.00dp</dimen>
+  <dimen name="fob_text_size_middle">14.40dp</dimen>
+  <dimen name="fob_text_size_big">16.00dp</dimen>
+  <dimen name="fob_text_size_large">24.00dp</dimen>
+  <dimen name="fob_base_page_titlebar_h">56.00dp</dimen>
+  <dimen name="fob_base_page_titlebar_button_w">56.00dp</dimen>
+  <dimen name="fob_page_tab_h">64.00dp</dimen>
+  <dimen name="fob_login_w">192.00dp</dimen>
+  <dimen name="fob_get_w">24.00dp</dimen>
+  <dimen name="fob_get_h">20.00dp</dimen>
+  <dimen name="fob_pull_down">12.00dp</dimen>
+  <dimen name="fob_header_view_normal">40.00dp</dimen>
+  <dimen name="fob_news_title_h">120.00dp</dimen>
+  <dimen name="fob_leave_header">120.00dp</dimen>
+  <dimen name="fob_operate_ion">28.00dp</dimen>
+  <dimen name="fob_titlebar_item_w">56.00dp</dimen>
+  <dimen name="fob_popu_create_event_w">112.00dp</dimen>
+  <dimen name="fob_create_event_get_w">16.00dp</dimen>
+  <dimen name="fob_create_event_get_h">12.00dp</dimen>
+</resources>

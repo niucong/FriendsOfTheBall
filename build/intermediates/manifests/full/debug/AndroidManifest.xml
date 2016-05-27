@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fob.balls"
+    android:versionCode="4"
+    android:versionName="0.5.2.2" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <!-- 定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- 测试 -->
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="Tests for My App"
+        android:targetPackage="com.fob.balls" />
+
+    <application
+        android:name="com.fob.balls.dialog.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.fob.balls.WelcomePageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fob.balls.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.RegisterCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.fob.balls.ForgetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.SetNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.SetCityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.SetBallsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.PlacesSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.page.FOBPageFriendsSearch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.FriendsAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.FriendsRenameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.InfoSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.RemindActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.RemindTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fob.balls.PasswordSettingActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <!-- meta-data需要写在application中 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="2kb2iI92sDTSEj8HGHK7FfKd" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="532ec1f456240b2cd91f24c6" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Umeng" />
+        <!-- 使用测试包 -->
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+</manifest>

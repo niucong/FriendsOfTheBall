@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fob_page_event_detail_image"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/pic_b" />
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fob_default_gapx2"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动名称："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="酷爱来战"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动地点："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_address_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="北京市海淀区大大大路233号院内3号球场"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动时间："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2013年11月25日08:00 － 21:00"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运动板块："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_type_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="网球"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_level"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="技术水平："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_level_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中级"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/fob_default_gapx2"
+                android:layout_marginTop="@dimen/fob_default_gapx2"
+                android:background="#e7e7e7" />
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动状态："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_state_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="等待凑伙"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/fob_default_gapx2"
+                android:layout_marginTop="@dimen/fob_default_gapx2"
+                android:background="#e7e7e7" />
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_personnel_captain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingTop="@dimen/fob_default_gap" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="队长："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_personnel_captain_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="老秋"
+                    android:textColor="#545454"
+                    android:textSize="@dimen/fob_text_size_middle" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/msg" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/fob_default_gapx2"
+                android:layout_marginTop="@dimen/fob_default_gapx2"
+                android:background="#e7e7e7" />
+
+            <GridView
+                android:id="@+id/fob_page_event_detail_grid"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:background="#d7d7d7"
+                android:fadingEdge="none"
+                android:numColumns="5"
+                android:padding="5dp"
+                android:scrollbars="none" />
+
+            <View
+                android:id="@+id/fob_page_even_detail_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/fob_default_gapx2"
+                android:layout_marginTop="@dimen/fob_default_gapx2"
+                android:background="#e7e7e7" />
+
+            <TextView
+                android:id="@+id/fob_page_even_detail_finish"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#208400"
+                android:gravity="center"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="取消活动"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <LinearLayout
+                android:id="@+id/fob_page_event_detail_personnel_captain"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fob_line_0"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/fob_default_gap"
+                android:paddingTop="@dimen/fob_default_gap"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动评价："
+                    android:textColor="#9c9a9b"
+                    android:textSize="@dimen/fob_text_size_small" />
+
+                <TextView
+                    android:id="@+id/fob_page_event_detail_personnel_captain_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="技术很好"
+                    android:textColor="#9c9a9b"
+                    android:textSize="@dimen/fob_text_size_small" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

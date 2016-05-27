@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/fob_adapter_place_confrim_status"
+        android:layout_width="5dp"
+        android:layout_height="62dp"
+        android:layout_marginRight="3dp"
+        android:background="#00BFF3"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="3dp" >
+
+        <ImageView
+            android:id="@+id/fob_adapter_place_confrim_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/fob_adapter_friends_header_default_man" />
+
+        <ImageView
+            android:id="@+id/fob_adapter_place_confrim_new"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/fob_new" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fob_adapter_place_confrim_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fob_adapter_place_confrim_name_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fob_default_gap"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <TextView
+                android:id="@+id/fob_adapter_place_confrim_deal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#295aca"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/fob_default_gap" >
+
+            <TextView
+                android:id="@+id/fob_adapter_place_confrim_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_small" />
+
+            <TextView
+                android:id="@+id/fob_adapter_place_confrim_stus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:src="@drawable/fob_arrows_gray" />
+
+</LinearLayout>

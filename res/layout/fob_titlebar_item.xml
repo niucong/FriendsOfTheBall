@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f9f9f9"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/fob_titlebar_item_image"
+        android:layout_width="@dimen/fob_operate_ion"
+        android:layout_height="@dimen/fob_operate_ion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:background="#00000000"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/fob_page_frame_tab_event" />
+
+    <TextView
+        android:id="@+id/fob_titlebar_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fob_titlebar_item_image"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="聊  天"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/fob_text_size_small" />
+
+    <ImageView
+        android:id="@+id/fob_titlebar_item_new"
+        android:layout_width="@dimen/fob_default_gapx2"
+        android:layout_height="@dimen/fob_default_gapx2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/fob_new"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fob_page_order_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/fob_base_page_titlebar_h"
+        android:background="#cecece" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fob_page_order_line" >
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gapx2"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="球场："
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+
+            <TextView
+                android:id="@+id/fob_page_order_place_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx网球场"
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_number"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_order_place_name"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预订场地："
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+
+            <TextView
+                android:id="@+id/fob_page_order_place_number_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1块"
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_order_place_number"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场次时间："
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+
+            <TextView
+                android:id="@+id/fob_page_order_place_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2013年11月15日 11:30-12:00"
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_own"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_order_place_time"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="队长（预订人）："
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+
+            <TextView
+                android:id="@+id/fob_page_order_place_own_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="啦啦啦"
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_order_place_own"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手机："
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+
+            <TextView
+                android:id="@+id/fob_page_order_place_phone_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13888888888"
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_line_1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/fob_page_order_place_phone"
+            android:layout_marginBottom="@dimen/fob_default_gapx2"
+            android:layout_marginTop="@dimen/fob_default_gapx2"
+            android:background="#cecece"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/fob_page_order_sendmessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_order_place_line_1"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="发布凑伙公告"
+                android:textColor="#9c9a9b"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <ImageView
+                android:id="@+id/fob_page_order_send_message_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/fob_default_gap"
+                android:layout_marginRight="@dimen/fob_default_gapx4"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fob_get" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_order_place_line_2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/fob_page_order_sendmessage"
+            android:layout_marginBottom="@dimen/fob_default_gapx2"
+            android:layout_marginTop="@dimen/fob_default_gapx2"
+            android:background="#cecece"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_order_place_line_2"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+
+            <ImageView
+                android:id="@+id/fob_page_order_finish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:scaleType="fitCenter" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

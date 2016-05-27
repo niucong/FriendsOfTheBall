@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f5f1" >
+
+    <RelativeLayout
+        android:id="@+id/fob_page_friends_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fob_base_page_titlebar_h"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="我的球友"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_large"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/fob_page_friends_search"
+                android:layout_width="@dimen/fob_header_view_normal"
+                android:layout_height="@dimen/fob_header_view_normal"
+                android:padding="10dp"
+                android:src="@drawable/title_search" />
+
+            <ImageView
+                android:id="@+id/fob_page_friends_add"
+                android:layout_width="@dimen/fob_header_view_normal"
+                android:layout_height="@dimen/fob_header_view_normal"
+                android:padding="10dp"
+                android:src="@drawable/title_add" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TabHost
+        android:id="@+id/fob_page_friends_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fob_page_friends_title" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tab_shape"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff" >
+
+            <TextView
+                android:id="@+id/fob_page_friends_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="正在建设中"
+                android:textColor="#000000"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <ListView
+                android:id="@+id/fob_page_friends_list_friends"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="none" >
+            </ListView>
+        </FrameLayout>
+    </TabHost>
+
+</RelativeLayout>

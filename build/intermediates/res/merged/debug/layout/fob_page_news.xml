@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomePageActivity" >
+
+    <ImageView
+        android:id="@+id/fob_page_news_image"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fob_bg_news_details" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/fob_page_news_place_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gapx2"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地点："
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <TextView
+                android:id="@+id/fob_page_news_place_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京市海淀区大大大路233号院内3号球场"
+                android:textColor="#545454"
+                android:textSize="@dimen/fob_text_size_middle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_news_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_news_place_name"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间："
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <TextView
+                android:id="@+id/fob_page_news_start_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2013年11月25日08:00－ 21:00"
+                android:textColor="#545454"
+                android:textSize="@dimen/fob_text_size_middle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_news_captain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_news_time"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="队长："
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <TextView
+                android:id="@+id/fob_page_news_captain_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="老网"
+                android:textColor="#545454"
+                android:textSize="@dimen/fob_text_size_middle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_news_state"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_news_captain"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="状态："
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <TextView
+                android:id="@+id/fob_page_news_state_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自由报名"
+                android:textColor="#545454"
+                android:textSize="@dimen/fob_text_size_middle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_news_end_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fob_page_news_state"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/fob_default_gap"
+            android:paddingLeft="@dimen/fob_default_gapx4"
+            android:paddingTop="@dimen/fob_default_gap" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="申请截止时间："
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_middle" />
+
+            <TextView
+                android:id="@+id/fob_page_news_end_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2013年11月23日17:30"
+                android:textColor="#545454"
+                android:textSize="@dimen/fob_text_size_middle" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#e7e7e7" />
+
+    <TextView
+        android:id="@+id/fob_page_news_finish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#208400"
+        android:gravity="center"
+        android:padding="@dimen/fob_default_gapx2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="报名"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/fob_text_size_big" />
+
+</LinearLayout>

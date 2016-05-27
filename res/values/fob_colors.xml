@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="fob_titlebar_selected">#E6E6E6</color>
+    <color name="tab_text_selected">#208400</color>
+    <color name="tab_text_selected2">#c6c6c6</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_text_blue">#295aca</color>
+    <color name="tab_text_green">#208400</color>
+    <color name="tab_text_red">#ff0000</color>
+
+</resources>

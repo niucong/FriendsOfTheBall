@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fob_base_page_titlebar_h"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="活动闹钟"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/remind_back"
+            android:layout_width="@dimen/fob_header_view_normal"
+            android:layout_height="@dimen/fob_header_view_normal"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/fob_back" />
+
+        <TextView
+            android:id="@+id/remind_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:text="完成"
+            android:textColor="#208400"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#e7e7e7" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <LinearLayout
+        android:id="@+id/remind_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="活动提醒"
+            android:textColor="#545454"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="#e7e7e7" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <LinearLayout
+        android:id="@+id/remind_time"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="提醒时间"
+            android:textColor="#545454"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/fob_arrows_gray" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#e7e7e7" />
+
+</LinearLayout>

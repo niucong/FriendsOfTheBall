@@ -1,0 +1,63 @@
+# view AndroidManifest.xml #generated:119
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.baidu.location.f { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.fob.balls.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.fob.balls.ForgetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.fob.balls.FriendsAddActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.fob.balls.FriendsRenameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.fob.balls.InfoSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.fob.balls.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.fob.balls.MapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.fob.balls.PasswordSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.fob.balls.PlacesSearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.fob.balls.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.fob.balls.RegisterCheckActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.fob.balls.RemindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.fob.balls.RemindTimeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.fob.balls.SetBallsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.fob.balls.SetCityActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.fob.balls.SetNameActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.fob.balls.WelcomePageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.fob.balls.dialog.App { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.fob.page.FOBPageFriendsSearch { <init>(...); }
+

@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="270"
+        android:endColor="#C52321"
+        android:startColor="#DD777C"
+        android:type="linear" />
+
+    <corners android:radius="@dimen/fob_default_gap" />
+
+</shape>

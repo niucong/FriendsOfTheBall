@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fob_base_page_titlebar_h"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="填写验证码"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/register_check_back"
+            android:layout_width="@dimen/fob_header_view_normal"
+            android:layout_height="@dimen/fob_header_view_normal"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/fob_back" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <TextView
+        android:id="@+id/register_check_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#f0f0f0"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="短信验证码已发送到"
+        android:textColor="#a3a3a3"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/register_check_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="输入验证码"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textColor="#a3a3a3" />
+
+    <LinearLayout
+        android:id="@+id/register_check_again"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="重新获取验证码"
+            android:textColor="#545454"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/fob_arrows_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/register_check_next"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一步"
+            android:textColor="#208400"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/fob_arrows_gray" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePageActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/fob_page_register_email"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fob_bg_edit_white"
+            android:gravity="center_vertical"
+            android:hint="输入常用电邮"
+            android:padding="@dimen/fob_default_gapx2"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <EditText
+            android:id="@+id/fob_page_register_nickname"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:gravity="center_vertical"
+            android:hint="设置昵称"
+            android:padding="@dimen/fob_default_gapx2"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <EditText
+            android:id="@+id/fob_page_register_password"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:gravity="center_vertical"
+            android:hint="设置密码"
+            android:padding="@dimen/fob_default_gapx2"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <EditText
+            android:id="@+id/fob_page_register_password_confirm"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:gravity="center_vertical"
+            android:hint="确认密码"
+            android:padding="@dimen/fob_default_gapx2"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <LinearLayout
+            android:id="@+id/fob_page_register_city"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fob_page_register_city_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="所在城市"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <ImageView
+                android:layout_width="@dimen/fob_pull_down"
+                android:layout_height="@dimen/fob_pull_down"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/fob_default_gapx3"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/fob_button_pull_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_register_type"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fob_page_register_type_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="选择运动板块"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <ImageView
+                android:layout_width="@dimen/fob_pull_down"
+                android:layout_height="@dimen/fob_pull_down"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/fob_default_gapx3"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/fob_button_pull_down" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/fob_page_register_phone"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:gravity="center_vertical"
+            android:hint="输入手机号码"
+            android:padding="@dimen/fob_default_gapx2"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <LinearLayout
+            android:id="@+id/fob_page_register_phone_confrim"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="获取手机验证"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <ImageView
+                android:layout_width="@dimen/fob_pull_down"
+                android:layout_height="@dimen/fob_pull_down"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/fob_default_gapx3"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/fob_button_pull_down" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fob_page_register_auth"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:background="@drawable/fob_bg_edit_white"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="获取手机验证"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <ImageView
+                android:id="@+id/fob_page_register_auth_flag"
+                android:layout_width="@dimen/fob_get_w"
+                android:layout_height="@dimen/fob_get_h"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/fob_default_gap"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/fob_get" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

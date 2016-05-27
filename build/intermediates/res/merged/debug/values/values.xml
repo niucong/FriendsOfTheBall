@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fob_titlebar_selected">#E6E6E6</color>
+    <color name="tab_text_blue">#295aca</color>
+    <color name="tab_text_green">#208400</color>
+    <color name="tab_text_red">#ff0000</color>
+    <color name="tab_text_selected">#208400</color>
+    <color name="tab_text_selected2">#c6c6c6</color>
+    <color name="transparent">#00000000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fob_base_page_titlebar_button_w">56.00dp</dimen>
+    <dimen name="fob_base_page_titlebar_h">56.00dp</dimen>
+    <dimen name="fob_create_event_get_h">12.00dp</dimen>
+    <dimen name="fob_create_event_get_w">16.00dp</dimen>
+    <dimen name="fob_default_gap">4.00dp</dimen>
+    <dimen name="fob_default_gapx2">8.00dp</dimen>
+    <dimen name="fob_default_gapx3">12.00dp</dimen>
+    <dimen name="fob_default_gapx4">16.00dp</dimen>
+    <dimen name="fob_get_h">20.00dp</dimen>
+    <dimen name="fob_get_w">24.00dp</dimen>
+    <dimen name="fob_header_view_normal">40.00dp</dimen>
+    <dimen name="fob_leave_header">120.00dp</dimen>
+    <dimen name="fob_login_w">192.00dp</dimen>
+    <dimen name="fob_news_title_h">120.00dp</dimen>
+    <dimen name="fob_operate_ion">28.00dp</dimen>
+    <dimen name="fob_page_tab_h">64.00dp</dimen>
+    <dimen name="fob_popu_create_event_w">112.00dp</dimen>
+    <dimen name="fob_pull_down">12.00dp</dimen>
+    <dimen name="fob_text_size_big">16.00dp</dimen>
+    <dimen name="fob_text_size_large">24.00dp</dimen>
+    <dimen name="fob_text_size_middle">14.40dp</dimen>
+    <dimen name="fob_text_size_small">12.00dp</dimen>
+    <dimen name="fob_titlebar_item_w">56.00dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_list_footer_loading">正在加载...</string>
+    <string name="app_list_footer_more">查看更多</string>
+    <string name="app_list_footer_no">暂无数据</string>
+    <string name="app_list_footer_no_more">没有更多数据</string>
+    <string name="app_list_header_refresh_down">下拉刷新</string>
+    <string name="app_list_header_refresh_last_update">上次更新于:%s</string>
+    <string name="app_list_header_refresh_up">松开刷新</string>
+    <string name="app_list_header_refreshing">正在刷新</string>
+    <string name="app_name">约球酷</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

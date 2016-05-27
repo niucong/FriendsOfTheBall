@@ -1,0 +1,177 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/fob_page_place_detail_image_l"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/badminton"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/fob_page_place_detail_image"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/badminton" />
+
+            <TextView
+                android:id="@+id/fob_page_place_detail_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_big" />
+            
+            <TextView
+                android:id="@+id/fob_page_place_detail_time2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#a3a3a3"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <LinearLayout
+                android:id="@+id/fob_page_place_detail_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话："
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_big" />
+
+                <TextView
+                    android:id="@+id/fob_page_place_detail_phone_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:text=""
+                    android:textColor="#9c9a9b"
+                    android:textSize="@dimen/fob_text_size_big" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fob_page_place_detail_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/fob_page_place_detail_address_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#a3a3a3"
+                    android:textSize="@dimen/fob_text_size_big" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/location" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#cecece" />
+
+            <LinearLayout
+                android:id="@+id/fob_page_place_detail_price_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/fob_default_gap"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/fob_default_gapx4"
+                android:paddingRight="@dimen/fob_default_gapx4" >
+
+                <TextView
+                    android:id="@+id/fob_page_place_detail_sport"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="球馆设施"
+                    android:textColor="#9c9a9b"
+                    android:textSize="18dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#a3a3a3" />
+
+                <TextView
+                    android:id="@+id/fob_page_place_detail_price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="价目表"
+                    android:textColor="#9c9a9b"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#cecece" />
+
+            <TextView
+                android:id="@+id/fob_page_place_detail_sport_show"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fob_default_gapx4"
+                android:layout_marginRight="@dimen/fob_default_gapx4"
+                android:layout_marginTop="@dimen/fob_default_gapx4"
+                android:textColor="#545454"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/fob_page_place_detail_price_show"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fob_default_gapx4"
+                android:layout_marginRight="@dimen/fob_default_gapx4"
+                android:layout_marginTop="@dimen/fob_default_gapx4"
+                android:textColor="#545454"
+                android:textSize="18dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/fob_page_place_detail_finish"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#208400"
+                android:gravity="center"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="添加到常用"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/fob_text_size_big" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fob_base_page_titlebar_h"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="使用手机号注册"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/register_back"
+            android:layout_width="@dimen/fob_header_view_normal"
+            android:layout_height="@dimen/fob_header_view_normal"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/fob_back" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#acacac" />
+
+    <EditText
+        android:id="@+id/register_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="输入手机号码："
+        android:inputType="phone"
+        android:maxLength="11"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/register_next"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="下一步"
+            android:textColor="#208400"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/fob_arrows_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/register_login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="使用已有账号登录"
+            android:textColor="#208400"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/fob_arrows_gray" />
+    </LinearLayout>
+
+</LinearLayout>

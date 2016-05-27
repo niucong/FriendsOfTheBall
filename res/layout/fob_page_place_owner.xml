@@ -1,0 +1,449 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/place_owner_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/fob_base_page_titlebar_h"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="自主订场"
+            android:textColor="#000000"
+            android:textSize="@dimen/fob_text_size_large"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/place_owner_back"
+            android:layout_width="@dimen/fob_header_view_normal"
+            android:layout_height="@dimen/fob_header_view_normal"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/fob_back" />
+
+        <TextView
+            android:id="@+id/place_owner_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:text="完成"
+            android:textColor="#208400"
+            android:textSize="20dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#c1c1c1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="场馆名称："
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+
+                <EditText
+                    android:id="@+id/place_owner_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:hint="输入场馆名"
+                    android:textColor="#545454"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="预订日期："
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/place_owner_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014年1月20日"
+                    android:textColor="#545454"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开始时间："
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/place_owner_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19:00"
+                    android:textColor="#545454"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="结束时间："
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/place_owner_end"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21:00"
+                    android:textColor="#545454"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="场地类型："
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/place_owner_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="文本编辑"
+                    android:textColor="#545454"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="场地数量："
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+
+                <TextView
+                    android:id="@+id/place_owner_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="#545454"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/place_owner_mambers_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/place_owner_members"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="成员"
+                    android:textColor="#a3a3a3"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/place_owner_grid_line"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1"
+                android:visibility="gone" />
+
+            <GridView
+                android:id="@+id/place_owner_grid"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:background="#d7d7d7"
+                android:fadingEdge="none"
+                android:numColumns="5"
+                android:padding="5dp"
+                android:scrollbars="none"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#c1c1c1" />
+
+            <TextView
+                android:id="@+id/place_owner_tip2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="-10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="如退订请提前一天或咨询管理员"
+                android:textColor="#a3a3a3"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/place_owner_send"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="#208400"
+                android:gravity="center"
+                android:padding="@dimen/fob_default_gapx2"
+                android:text="提交订单"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <LinearLayout
+                android:id="@+id/place_owner_status"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订单状态："
+                        android:textColor="#a3a3a3"
+                        android:textSize="19dp" />
+
+                    <TextView
+                        android:id="@+id/place_owner_status_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="#295aca"
+                        android:textSize="19dp" />
+
+                    <LinearLayout
+                        android:id="@+id/place_owner_manager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="球场管理员"
+                            android:textColor="#a3a3a3"
+                            android:textSize="19dp" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/manager" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/place_owner_id0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/place_owner_id1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="球场编号："
+                        android:textColor="#a3a3a3"
+                        android:textSize="19dp" />
+
+                    <TextView
+                        android:id="@+id/place_owner_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=" "
+                        android:textColor="#000000"
+                        android:textSize="19dp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1" />
+
+                <LinearLayout
+                    android:id="@+id/place_owner_chat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp" >
+
+                    <RelativeLayout
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="3dp" >
+
+                        <ImageView
+                            android:id="@+id/place_owner_head"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_marginRight="3dp"
+                            android:src="@drawable/fob_adapter_friends_header_default_man" />
+
+                        <ImageView
+                            android:id="@+id/place_owner_new"
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/fob_new"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/place_owner_msg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="#a3a3a3"
+                        android:textSize="19dp" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/place_owner_status2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1" />
+
+                <TextView
+                    android:id="@+id/place_owner_tip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="如退订请提前10小时或咨询管理员"
+                    android:textColor="#a3a3a3"
+                    android:textSize="14dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/place_owner_refuse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="#208400"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="取消"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/fob_text_size_big" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/fob_adapter_message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="5dp"
+        android:text="07-25 11:30"
+        android:textColor="#d0cfcf"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/fob_adapter_message_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_right"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="loding阿卡家uisyfiusdal计划V大，"
+        android:textColor="#6e6e6e"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/fob_adapter_message_header_view"
+        android:layout_width="@dimen/fob_header_view_normal"
+        android:layout_height="@dimen/fob_header_view_normal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fob_adapter_friends_header_default_lady" />
+
+</LinearLayout>

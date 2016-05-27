@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f5f1" >
+
+    <TextView
+        android:id="@+id/fob_page_event_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/fob_base_page_titlebar_h"
+        android:gravity="center"
+        android:text="我的活动"
+        android:textColor="#000000"
+        android:textSize="@dimen/fob_text_size_large"
+        android:textStyle="bold" />
+
+    <TabHost
+        android:id="@+id/fob_page_event_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fob_page_event_title" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:background="@drawable/tab_shape" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff" >
+
+            <TextView
+                android:id="@+id/fob_page_event_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="正在建设中"
+                android:textColor="#000000"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <ListView
+                android:id="@+id/fob_page_event_list_view_now"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="none" >
+            </ListView>
+
+            <ListView
+                android:id="@+id/fob_page_event_list_view_all"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none"
+                android:scrollbars="none" >
+            </ListView>
+        </FrameLayout>
+    </TabHost>
+
+</RelativeLayout>

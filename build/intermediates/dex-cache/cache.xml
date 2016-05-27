@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\libs\gson-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.2_8f4f58d8dfe8cef052ad44c739f757187273b431\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\libs\commons-codec-1.9.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\2\commons-codec-1.9_3bbd134ec24ba0b527a422904a15d84193b3f57e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\libs\umeng_sdk.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="802c0ce4e6c5a3f1e446835823768df7a2a851c5">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_sdk_bf5facdcb69f3a0b570334a8439fc5777f2c97e2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6fa99bd0dc2832263675a64badc67a0a0ee58844">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_72154e853349601ef89c5f3e0f6c00a1cad1a157\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\libs\locSDK_4.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="41b93335a2753c93f8b8f56741615cb81ea72437">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_4.2_49f2098f199eaddddf10d5aeaebdd595788884f3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\libs\android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_5e59c90e34b88e9dc1f8cef70c80322e06c0341a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\libs\fastjson-1.1.8.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="95e8a6442843c662044c0325beadc8700f954e53">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.8_79bf548a1b40eea8420ef4b981e7032106d84d25\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e7aa23d1a781ad4d02c0f2612b8d930fa3a86156">
+        <dex dex="C:\Android\MyProject\FriendsOfTheBall\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3363f6725a4e571671c71ca8bcdf41b7d4e0fb52\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_evnet_new_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_evnet_new_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_place_confrim_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_place_confrim_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_event.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_event.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_setting_divide.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_setting_divide.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\map.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\map.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\forget.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\forget.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\places_search.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\places_search.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_message_own_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_message_own_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_friends_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_friends_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\transient_notification.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\transient_notification.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_order.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_order.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_place_owner.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_place_owner.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\member_gv_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\member_gv_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_register.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_register.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_create_event.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_create_event.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\password_setting.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\password_setting.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_welcome.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_welcome.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_place_inventory_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_place_inventory_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_message_friend_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_message_friend_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_dialogue.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_dialogue.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\info_setting.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\info_setting.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_news.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_news.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_popu_friend_operate.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_popu_friend_operate.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_login.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_login.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_setting.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_setting.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_popu_create_event.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_popu_create_event.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_members_view.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_members_view.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_footer.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_footer.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\set_city.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\set_city.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\set_balls.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\set_balls.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_place.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_place.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\remind.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\remind.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_tab_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_tab_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_members_add.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_members_add.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_members_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_members_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_event_detail.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_event_detail.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_frame.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_frame.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\search.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\search.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_announcement.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_announcement.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_titlebar_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_titlebar_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_place_wait_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_place_wait_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\friends_rename.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\friends_rename.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_place_inventory.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_place_inventory.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_message_news_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_message_news_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_footer2.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_footer2.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_message_new_evnet_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_message_new_evnet_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_leave.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_leave.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\friends_add.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\friends_add.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_place_detail.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_place_detail.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_list_header.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\refresh_list_header.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_user_detail.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_user_detail.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_place_price_list_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_place_price_list_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\friends_search.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\friends_search.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\set_name.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\set_name.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_adapter_message_leave_item.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_adapter_message_leave_item.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_message.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_message.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_page_friends.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_page_friends.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\register_check.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\register_check.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\remind_time.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\remind_time.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_list_footer.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\refresh_list_footer.xml"
+    },
+    {
+        "merged": "C:\\Android\\MyProject\\FriendsOfTheBall\\build\\intermediates\\res\\merged\\debug\\layout\\fob_base_page_titlebar.xml",
+        "source": "C:\\Android\\MyProject\\FriendsOfTheBall\\res\\layout\\fob_base_page_titlebar.xml"
+    }
+]

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/fob_page_login_username"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="用户名"
+            android:padding="@dimen/fob_default_gapx2"
+            android:background="@drawable/fob_bg_edit_white"
+            android:textColor="#00b4ff"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <EditText
+            android:id="@+id/fob_page_login_password"
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="密码"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:padding="@dimen/fob_default_gapx2"
+            android:background="@drawable/fob_bg_edit_white"
+            android:textColor="#00b4ff"
+            android:textSize="@dimen/fob_text_size_big" />
+
+        <LinearLayout
+            android:layout_width="@dimen/fob_login_w"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fob_default_gap"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fob_page_login_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="注册"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/fob_default_gap"
+                android:padding="@dimen/fob_default_gapx2"
+                android:textColor="#ffffff"
+                android:background="@drawable/fob_bg_button_red"
+                android:textSize="@dimen/fob_text_size_big" />
+
+            <TextView
+                android:id="@+id/fob_page_login_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="登录"
+                android:layout_marginLeft="@dimen/fob_default_gap"
+                android:padding="@dimen/fob_default_gapx2"
+                android:background="@drawable/fob_bg_button_red"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/fob_text_size_big" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/fob_page_footer_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/fob_page_footer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载中…"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
